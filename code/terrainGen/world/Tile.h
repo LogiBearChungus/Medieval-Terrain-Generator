@@ -11,6 +11,23 @@ enum class Biome {
     Swamp
 };
 
+enum class BiomeType {
+    DeepOcean,
+    Ocean,
+    Beach,
+    Grassland,
+    Forest,
+    DenseForest,
+    Desert,
+    Tundra,
+    Taiga,
+    Mountain,
+    SnowPeak,
+    Swamp,
+    Savanna,
+    Scrubland
+};
+
 struct Tile {
     // Core terrain
     float height = 0.0f;        // 0–1
