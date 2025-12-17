@@ -1,5 +1,5 @@
 #Change this for each assignment!
-set(APPNAME assignment1)
+set(APPNAME terrainGen)
 
 #additional source files will have to be added here
 add_executable(${APPNAME} main.cpp)
